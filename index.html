@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<link rel="stylesheet" href="index.css">
+<title>UIS Leadership Club</title>
+<script src="gen_validatorv4.js" type="text.javascript"></script>
+</head>
+<body>
+
+<h1>Welcome to</h1> 
+<h1>UIS Leadership Club</h1>
+
+
+<div class="container">
+    <div style="text-align:center">
+      <h2>Contact Us</h2>
+      <p>Swing by for a cup of coffee, or leave us a message:</p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="pic.png" style="width:100%">
+      </div>    
+      <div class="column">
+        <form action="contact.php">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name..">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your Email..">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write something.." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script language="JavaScript">
+    var frmvalidator  = new Validator("contactform");
+    frmvalidator.addValidation("name","req","Please provide your name"); 
+    frmvalidator.addValidation("email","req","Please provide your email"); 
+    frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+    </script>
+
+
+</body>
+</html>

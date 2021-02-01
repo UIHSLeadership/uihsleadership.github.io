@@ -1,0 +1,37 @@
+body {
+    background-color: white;
+}
+
+.about {
+    color: black;
+    text-align: center;
+    font-size: 52px;
+}
+
+p {
+    color: black;
+    font-size: 16px;
+}
+
+.all-browsers {
+    margin: 0;
+    padding: 5px;
+    background-color: lightgray;
+    margin-right: 30%;
+  }
+  
+
+  .browser {
+    background: white;
+  }
+  
+  .browser > h2, p {
+    margin: 4px;
+    font-size: 90%;
+  }
+
+.home {
+    margin: auto;
+}
+
+

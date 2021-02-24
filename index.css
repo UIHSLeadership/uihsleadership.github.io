@@ -12,7 +12,7 @@ body {
     float: right;
 }
 .header .menu li{
-    float: left;
+   text-align: center;
       
 }
 .header .menu li a:hover{

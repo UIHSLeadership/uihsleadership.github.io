@@ -17,8 +17,9 @@ body {
     float: right;
 }
 .header .menu li{
-   text-align: center;
-      
+    float: left;
+    margin-left: 40px;
+    line-height: 90px;      
 }
 .header .menu li a:hover{
     color: #9f000f;

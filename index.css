@@ -8,6 +8,11 @@ body {
       height: 90px;
       margin: 0 auto;
 }
+.header h1{
+    float left;
+    padding-top: 28px;
+    margin-right: 25px;
+}
 .header .menu{
     float: right;
 }

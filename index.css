@@ -1,7 +1,19 @@
 body {
     background-color: white;
   }
-  
+  .header {
+      width: 1140px;
+      height: 90px;
+      margin: 0 auto;
+}
+.header .menu{
+    float: right;
+}
+.header .menu li a:hover{
+    color: yellow;
+}    
+      
+      
   h1 {
     color: black;
     text-align: center;

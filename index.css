@@ -22,8 +22,13 @@ body {
 .header .menu{
     float: right;
 }
+.header .menu li{
+    float: left;
+    margin-left: 40px
+    line-height: 90px;
+}
 .header .menu li a:hover{
-    color: #ffc;
+    color: #fcc;
 }    
       
       

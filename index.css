@@ -6,20 +6,23 @@
 	--web-scale-on-resize: true;
 	--web-enable-deep-linking: true;
 }
+
 :root {
 	--web-view-ids: _1920__1;
 }
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	border: none;
 }
+
 #_1920__1 {
 	position: absolute;
 	width: 1920px;
 	height: 1080px;
-	background-color: rgba(255,255,255,1);
+	background-color: rgba(255, 255, 255, 1);
 	overflow: hidden;
 	--web-view-name: UIS Leadership Club;
 	--web-view-id: _1920__1;
@@ -28,6 +31,7 @@
 	--web-scale-on-resize: true;
 	--web-enable-deep-linking: true;
 }
+
 #logo {
 	position: absolute;
 	width: 122px;
@@ -36,6 +40,7 @@
 	top: 249px;
 	overflow: visible;
 }
+
 #Welcome_to_UIS_Leadership_Club {
 	left: 150px;
 	top: 408px;
@@ -50,17 +55,19 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 75px;
-	color: rgba(62,62,62,1);
+	color: rgba(62, 62, 62, 1);
 }
+
 #_1 {
 	fill: transparent;
-	stroke: rgba(62,62,62,1);
+	stroke: rgba(62, 62, 62, 1);
 	stroke-width: 2px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
+
 ._1 {
 	overflow: visible;
 	position: absolute;
@@ -68,8 +75,9 @@
 	height: 2px;
 	left: 150.5px;
 	top: 592.5px;
-	transform: matrix(1,0,0,1,0,0);
+	transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #Our_Goals_and_presences_over_h {
 	left: 150px;
 	top: 617px;
@@ -84,12 +92,13 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 22px;
-	color: rgba(62,62,62,1);
+	color: rgba(62, 62, 62, 1);
 	letter-spacing: 0.1px;
 }
-#Home {
+
+.Home {
 	left: 1018px;
-	top: 92px;
+	top: 72px;
 	position: absolute;
 	overflow: visible;
 	width: 60px;
@@ -101,32 +110,32 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 22px;
-	color: rgba(62,62,62,1);
+	color: rgba(62, 62, 62, 1);
 	letter-spacing: 0.1px;
+	background-color: rgba(255, 255, 255, 1);
+	padding: 20px 0px
 }
-#_2 {
-	fill: transparent;
-	stroke: rgba(213,170,63,1);
-	stroke-width: 2px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-._2 {
-	overflow: visible;
+
+.Home::after {
+	background-color: rgba(213, 170, 63, 1);
+	content: "";
+	width: 0;
+	height: 3px;
+	left: 0;
+	bottom: 0;
+	transition: width 0.35s ease 0s;
 	position: absolute;
-	width: 74px;
-	height: 2px;
-	left: 1010.5px;
-	top: 146.5px;
-	transform: matrix(1,0,0,1,0,0);
 }
-#About_Us {
+
+.Home:hover::after {
+	width: 100%;
+}
+
+.About_Us {
 	left: 1167px;
-	top: 92px;
+	top: 72px;
 	position: absolute;
-	overflow: visible;
+	overflow: hidden;
 	width: 92px;
 	white-space: nowrap;
 	line-height: 27px;
@@ -136,12 +145,30 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 22px;
-	color: rgba(62,62,62,1);
+	color: rgba(62, 62, 62, 1);
 	letter-spacing: 0.1px;
+	background-color: rgba(255, 255, 255, 1);
+	padding: 20px 0px
 }
-#Our_Work {
+
+.About_Us::after {
+	background-color: rgba(213, 170, 63, 1);
+	content: "";
+	width: 0;
+	height: 3px;
+	left: 0;
+	bottom: 0;
+	transition: width 0.35s ease 0s;
+	position: absolute;
+}
+
+.About_Us:hover::after {
+	width: 100%;
+}
+
+.Our_Work {
 	left: 1348px;
-	top: 92px;
+	top: 72px;
 	position: absolute;
 	overflow: visible;
 	width: 98px;
@@ -153,12 +180,30 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 22px;
-	color: rgba(62,62,62,1);
+	color: rgba(62, 62, 62, 1);
 	letter-spacing: 0.1px;
+	background-color: rgba(255, 255, 255, 1);
+	padding: 20px 0px
 }
-#Contact_Us {
+
+.Our_Work::after {
+	background-color: rgba(213, 170, 63, 1);
+	content: "";
+	width: 0;
+	height: 3px;
+	left: 0;
+	bottom: 0;
+	transition: width 0.35s ease 0s;
+	position: absolute;
+}
+
+.Our_Work:hover::after {
+	width: 100%;
+}
+
+.Contact_Us {
 	left: 1535px;
-	top: 92px;
+	top: 72px;
 	position: absolute;
 	overflow: visible;
 	width: 114px;
@@ -170,9 +215,27 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 22px;
-	color: rgba(62,62,62,1);
+	color: rgba(62, 62, 62, 1);
 	letter-spacing: 0.1px;
+	background-color: rgba(255, 255, 255, 1);
+	padding: 20px 0px
 }
+
+.Contact_Us::after {
+	background-color: rgba(213, 170, 63, 1);
+	content: "";
+	width: 0;
+	height: 3px;
+	left: 0;
+	bottom: 0;
+	transition: width 0.35s ease 0s;
+	position: absolute;
+}
+
+.Contact_Us:hover::after {
+	width: 100%;
+}
+
 #instagram {
 	position: absolute;
 	width: 31px;
@@ -181,9 +244,11 @@
 	top: 90px;
 	overflow: visible;
 }
+
 #_1_r {
-	fill: rgba(255,255,255,1);
+	fill: rgba(255, 255, 255, 1);
 }
+
 ._1_r {
 	filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.161));
 	position: absolute;
@@ -193,9 +258,11 @@
 	left: 1018px;
 	top: 249px;
 }
+
 #_2_s {
-	fill: rgba(255,255,255,1);
+	fill: rgba(255, 255, 255, 1);
 }
+
 ._2_s {
 	filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.161));
 	position: absolute;
@@ -205,6 +272,7 @@
 	left: 1018px;
 	top: 593px;
 }
+
 #friday-meeting {
 	position: absolute;
 	width: 275.333px;
@@ -213,6 +281,7 @@
 	top: 267.5px;
 	overflow: visible;
 }
+
 #Our_Meeting__2021_19th_February {
 	left: 1348px;
 	top: 278px;
@@ -227,9 +296,10 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 25px;
-	color: rgba(62,62,62,1);
+	color: rgba(62, 62, 62, 1);
 	letter-spacing: 0.1px;
 }
+
 a:link {
 	color: rgba(62, 62, 62, 1);
 	background-color: transparent;

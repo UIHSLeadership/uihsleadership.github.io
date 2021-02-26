@@ -3,12 +3,14 @@
 <head>
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>UIS Leadership Club</title>
 <style id="applicationStylesheet" type="text/css">
 	.mediaViewInfo {
 		--web-view-name: UIS Leadership Club;
 		--web-view-id: _1920__1;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: fit;
 		--web-scale-on-resize: true;
 		--web-enable-deep-linking: true;
 	}
@@ -29,6 +31,8 @@
 		overflow: hidden;
 		--web-view-name: UIS Leadership Club;
 		--web-view-id: _1920__1;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: fit;
 		--web-scale-on-resize: true;
 		--web-enable-deep-linking: true;
 	}
@@ -211,7 +215,7 @@
 	}
 	#friday-meeting {
 		position: absolute;
-		width: 275.33px;
+		width: 275.333px;
 		height: 275px;
 		left: 978.5px;
 		top: 267.5px;
@@ -234,26 +238,29 @@
 		color: rgba(62,62,62,1);
 		letter-spacing: 0.1px;
 	}
-a:link {
-  color: rgba(62,62,62,1);
-  background-color: transparent;
-  text-decoration: none;
-}
-a:visited {
-  color:rgba(62,62,62,1);
-  background-color: transparent;
-  text-decoration: none;
-}
-a:hover {
-  color: rgba(213,170,63,1);
-  background-color: transparent;
-  text-decoration: none;
-}
-a:active {
-  color: rgba(213,170,63,1);
-  background-color: transparent;
-  text-decoration: underline;
-}
+	a:link {
+			color: rgba(62, 62, 62, 1);
+			background-color: transparent;
+			text-decoration: none;
+		}
+
+		a:visited {
+			color: rgba(62, 62, 62, 1);
+			background-color: transparent;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: rgba(213, 170, 63, 1);
+			background-color: transparent;
+			text-decoration: none;
+		}
+
+		a:active {
+			color: rgba(213, 170, 63, 1);
+			background-color: transparent;
+			text-decoration: underline;
+		}
 </style>
 <script id="applicationScript">
 ///////////////////////////////////////
@@ -3124,7 +3131,7 @@ window.application = new Application();
 	<div id="Contact_Us">
 		<a href="Contact Us.html"><span>Contact Us</span></a>
 	</div>
-	<a href="https://www.instagram.com/uisstudentleaders/"><img id="instagram" src="instagram.png" srcset="instagram.png 1x, instagram@2x.png 2x"></a>
+	<img id="instagram" src="instagram.png" srcset="instagram.png 1x, instagram@2x.png 2x">
 		
 	<svg class="_1_q">
 		<rect id="_1_q" rx="28" ry="28" x="0" y="0" width="750" height="312">
@@ -3135,10 +3142,10 @@ window.application = new Application();
 		</rect>
 	</svg>
 	<img id="friday-meeting" src="friday-meeting.png" srcset="friday-meeting.png 1x, friday-meeting@2x.png 2x">
-
-		<div id="Our_Meeting__2021_19th_February">
-			<span>Our Meeting </span><br><span style="font-size:22px;">2021, 19th February </span>
-		</div>
+		
+	<div id="Our_Meeting__2021_19th_February">
+		<span>Our Meeting </span><br><span style="font-size:22px;">2021, 19th February  </span>
+	</div>
 </div>
 </body>
 </html>
